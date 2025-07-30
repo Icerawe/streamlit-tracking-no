@@ -37,7 +37,7 @@ df = pd.read_csv("mock_student_data.csv")
 df["เซต"] = df.apply(determine_concluded, axis=1)
 
 # --- Page Config ---
-st.set_page_config(page_title="สุเทพสตูดิโอ เชียงใหม่", layout="wide", page_icon="📸")
+st.set_page_config(page_title="สุเทพสตูดิโอ เชียงใหม่", layout="centered", page_icon="📸")
 
 # --- Cover Image ---
 st.image("cover.jpg", use_container_width=True)
