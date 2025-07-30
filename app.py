@@ -43,8 +43,9 @@ st.set_page_config(page_title="สุเทพสตูดิโอ เชีย
 st.image("cover.jpg", use_container_width=True)
 
 # --- Titles ---
-st.title("สุเทพสตูดิโอ เชียงใหม่")
+# st.title("สุเทพสตูดิโอ เชียงใหม่")
 st.subheader("ตรวจสอบสถานะการจัดส่งรูป บัณฑิตมหาวิทยาลัยแม่โจ้")
+st.subheader("ปีการศึกษา 2567-2568 (ครั้งที่ 48)")
 
 # --- Session State Setup ---
 if "student_input" not in st.session_state:
